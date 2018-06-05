@@ -14,6 +14,9 @@
 		3D06A29020C4F65A0060FAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D06A28E20C4F65A0060FAC2 /* LaunchScreen.storyboard */; };
 		3D06A29B20C4F65A0060FAC2 /* DivisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06A29A20C4F65A0060FAC2 /* DivisionTests.swift */; };
 		3D06A2A620C4F65A0060FAC2 /* DivisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06A2A520C4F65A0060FAC2 /* DivisionUITests.swift */; };
+		3D6DF5FC20C6DDA80075ECB3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DF5FB20C6DDA80075ECB3 /* CalculatorBrain.swift */; };
+		3D6DF5FD20C6DDA80075ECB3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DF5FB20C6DDA80075ECB3 /* CalculatorBrain.swift */; };
+		3D6DF5FE20C6DDA80075ECB3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DF5FB20C6DDA80075ECB3 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		3D06A2A120C4F65A0060FAC2 /* DivisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D06A2A520C4F65A0060FAC2 /* DivisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionUITests.swift; sourceTree = "<group>"; };
 		3D06A2A720C4F65A0060FAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6DF5FB20C6DDA80075ECB3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				3D06A28520C4F65A0060FAC2 /* AppDelegate.swift */,
 				3D06A28720C4F65A0060FAC2 /* ViewController.swift */,
+				3D6DF5FB20C6DDA80075ECB3 /* CalculatorBrain.swift */,
 				3D06A28920C4F65A0060FAC2 /* Main.storyboard */,
 				3D06A28C20C4F65A0060FAC2 /* Assets.xcassets */,
 				3D06A28E20C4F65A0060FAC2 /* LaunchScreen.storyboard */,
@@ -256,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6DF5FC20C6DDA80075ECB3 /* CalculatorBrain.swift in Sources */,
 				3D06A28820C4F65A0060FAC2 /* ViewController.swift in Sources */,
 				3D06A28620C4F65A0060FAC2 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6DF5FD20C6DDA80075ECB3 /* CalculatorBrain.swift in Sources */,
 				3D06A29B20C4F65A0060FAC2 /* DivisionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6DF5FE20C6DDA80075ECB3 /* CalculatorBrain.swift in Sources */,
 				3D06A2A620C4F65A0060FAC2 /* DivisionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
