@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var div1TextField: UITextField!
     @IBOutlet weak var div2TextField: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
-    @IBAction func calculateButton(_ sender: Any) {
+    @IBAction func calculateButton(sender: AnyObject) {
     }
     override func viewDidLoad() {
         super.viewDidLoad()

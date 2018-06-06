@@ -11,30 +11,34 @@ import XCTest
 
 class DivisionTests: XCTestCase {
     
+    let calculatorBrain = CalculatorBrain()
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test10DividedBy5MustBe2() {
+        calculatorBrain.divideTwoNumbers(dividend: 5, divisor: 2) { (result, error) in
+            XCTAssert(result == 2, "Result must be 2")
+        }
+        
     }
     
-    func testExample2() {
-        XCTFail("This test always fails")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func test10DividedBy0MustBeNil() {
+        calculatorBrain.divideTwoNumbers(dividend: 10, divisor: 0) { (result, error) in
+            XCTAssertNil(result, "Result must be nil")
+            XCTAssert(error!.domain == "Error dividing by zero", "Error message shold be: 'Error dividing by zero'")
         }
     }
     
+    func testTestDivisionTime() {
+        measure {
+            self.calculatorBrain.divideTwoNumbers(dividend: 10, divisor: 2, completion: { (result, error) -> Void in
+            })
+        }
+    }
 }
