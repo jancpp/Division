@@ -80,7 +80,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uNH-0y-90L"/>
+                                            <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XtO-tO-MUL"/>
                                         </connections>
                                     </button>
                                 </subviews>

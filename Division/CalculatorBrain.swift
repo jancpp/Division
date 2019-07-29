@@ -15,6 +15,6 @@ class CalculatorBrain: NSObject {
             let error = NSError(domain: "Error dividing by zero", code: 1, userInfo: nil)
             return completion(nil, error)
         }
-        return completion(Float(dividend/divisor), nil)
+        return completion( ( Float(dividend) / Float(divisor) ), nil)
     }
 }
